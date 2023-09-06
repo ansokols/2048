@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="264.0" prefWidth="300.0" style="-fx-background-color: #30d5c8;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DefeatController">
+    <children>
+        <AnchorPane style="-fx-background-color: #fffff0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="64.0">
+         <children>
+            <Label alignment="CENTER" layoutX="82.0" layoutY="63.0" text="GAME OVER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="30.0">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="32.0" />
+               </font>
+            </Label>
+            <Label fx:id="scoreLabel" alignment="CENTER" layoutX="103.0" layoutY="124.0" text="YOUR SCORE - 666" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+               <font>
+                  <Font name="Gabriola" size="22.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutY="-10.0" prefHeight="74.0" prefWidth="1024.0" text="2048" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-5.0">
+            <font>
+                <Font name="Impact" size="50.0" />
+            </font>
+            <textFill>
+                <LinearGradient endX="0.480952380952381" endY="1.0" startX="0.4809523809523809" startY="0.5095238095238095">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="0.9961685823754789">
+                            <color>
+                                <Color opacity="0.0" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                    </stops>
+                </LinearGradient>
+            </textFill>
+        </Label>
+    </children>
+</AnchorPane>
